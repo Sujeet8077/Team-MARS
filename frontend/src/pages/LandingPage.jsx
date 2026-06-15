@@ -172,14 +172,14 @@ export default function LandingPage({ onLogin, onSignup }) {
       </section>
 
       <section id="stories" className="land-section">
-        <h2>Loved by learners everywhere.</h2>
-        <p className="lead">Real students, real results.</p>
+        <h2>Leveling up developers everywhere.</h2>
+        <p className="lead">Master new skills, ship better code.</p>
         <div className="test-grid">
           {[
-            { name: "Sujeet Singh", role: "React Front-end Developer", text: "The Pomodoro + AI tutor combo got me through tough React concepts. I track 6 hrs daily without burnout.", i: "S" },
-            { name: "Mukul Arya", role: "Front-end Developer", text: "Achievement notifications make studying weirdly addictive. Hit 100 pomodoros last month — felt unreal.", i: "M" },
-            { name: "Adarsh Raj Pandey", role: "Front-end Developer", text: "I love the dark theme and live study rooms. Studying with friends across cities feels like a hostel room.", i: "A" },
-            { name: "Rahul Bhatt", role: "Backend Developer", text: "Best ₹99 I ever spent. Unlimited AI + 500MB makes this my single study app. Worth every rupee.", i: "R" },
+            { name: "Sujeet Singh", role: "React Front-end Developer", text: "The Pomodoro + AI assistant combo helps me power through complex React architectures. I can code for 6 hours straight without feeling burnt out.", i: "S" },
+            { name: "Mukul Arya", role: "Front-end Developer", text: "The achievement notifications make shipping code weirdly addictive. Hitting 100 focused dev sprints last month felt unreal.", i: "M" },
+            { name: "Adarsh Raj Pandey", role: "Front-end Developer", text: "I love the dark theme and live co-working rooms. Pair programming and building projects with peers across different cities feels like we're in the same room.", i: "A" },
+            { name: "Rahul Bhatt", role: "Backend Developer", text: "Best ₹99 I ever spent. The unlimited AI assistance makes this my go-to productivity tool for backend development. Worth every rupee.", i: "R" },
           ].map((t, i) => (
             <div key={i} className="glass test-card">
               <p>"{t.text}"</p>
